@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #0b0f19;
+    color: #f1f5f9;
+  }
+
+  .font-serif {
+    font-family: 'Lora', 'Georgia', Cambria, 'Times New Roman', serif;
+  }
+
+  .font-cinzel {
+    font-family: 'Cinzel', 'Lora', Georgia, serif;
+  }
+}
+
+/* Frosted Glass Utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-panel-hover {
+  transition: all 0.2s ease-in-out;
+}
+.glass-panel-hover:hover {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(245, 158, 11, 0.35);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 0 20px 0 rgba(245, 158, 11, 0.1);
+}
+
+.glass-panel-amber {
+  background: rgba(245, 158, 11, 0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.glass-input:focus {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(245, 158, 11, 0.6);
+  outline: none;
+}
+
+/* Custom smooth scrollbar for hymn reader and chips */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(11, 15, 25, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(245, 158, 11, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.6);
+}
+

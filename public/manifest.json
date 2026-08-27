@@ -1,0 +1,31 @@
+{
+  "name": "Hope Christian Centre - Sacred Hymnal",
+  "short_name": "HCC Hymnal",
+  "description": "Offline Sacred Hymnal with 654 Yoruba and English hymns for Hope Christian Centre",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#090919",
+  "theme_color": "#1e1b4b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["books", "lifestyle", "education"]
+}

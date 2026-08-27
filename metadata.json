@@ -1,0 +1,6 @@
+{
+  "name": "Hope Christian Centre Hymnal",
+  "description": "Church hymn application with extensive searchable lyrics, Yoruba & English hymnal database, multi-instrument audio accompaniment, offline caching, and denomination & liturgical classifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
