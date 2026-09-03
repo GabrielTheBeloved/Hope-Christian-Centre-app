@@ -22,8 +22,7 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({
     const list: { type: 'verse' | 'chorus' | 'title'; title: string; text: string; subtitle?: string }[] = [
       {
         type: 'title',
-        title: `Hymn #${hymn.number}`,
-        subtitle: hymn.englishTitle,
+        title: `Orin ${hymn.number}`,
         text: hymn.title
       }
     ];
@@ -31,14 +30,14 @@ export const PresentationMode: React.FC<PresentationModeProps> = ({
     hymn.verses.forEach((verse) => {
       list.push({
         type: 'verse',
-        title: `Hymn #${hymn.number} • Stanza ${verse.number}`,
+        title: `Orin ${hymn.number} • Ẹsẹ ${verse.number}`,
         text: verse.text
       });
 
       if (hymn.chorus) {
         list.push({
           type: 'chorus',
-          title: `Hymn #${hymn.number} • Ègbè (Chorus)`,
+          title: `Orin ${hymn.number} • Ègbè`,
           text: hymn.chorus
         });
       }

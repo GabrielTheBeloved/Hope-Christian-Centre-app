@@ -1,4 +1,6 @@
-[
+import { Hymn } from '../types';
+
+export const hymnsData: Hymn[] = [
   {
     "id": "ybh-1",
     "number": 1,
@@ -21246,4 +21248,5 @@
     "slug": "644-2-2",
     "wpPostId": 53
   }
-]
+];
+export default hymnsData;

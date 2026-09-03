@@ -1,6 +1,6 @@
 {
-  "name": "Hope Christian Centre Hymnal",
-  "description": "Church hymn application with extensive searchable lyrics, Yoruba & English hymnal database, multi-instrument audio accompaniment, offline caching, and denomination & liturgical classifications.",
+  "name": "Hope Christian Centre Hymns",
+  "description": "Church hymn and Sunday school application with 654 searchable Yoruba hymns (Ìwé Orin Mímọ́) and comprehensive bilingual Sunday School lessons for Hope Christian Centre.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

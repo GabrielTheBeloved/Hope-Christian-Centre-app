@@ -1,11 +1,14 @@
-const CACHE_NAME = 'hcc-hymnal-v1';
+const CACHE_NAME = 'hcc-hymnal-v2';
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
   '/manifest.json',
   '/logo.png',
   '/icon-192.png',
-  '/icon-512.png'
+  '/icon-512.png',
+  '/images/worship-banner.jpg',
+  '/images/bible-card.jpg',
+  '/images/hymnal-card.jpg'
 ];
 
 // Install: precache app shell and immediate assets

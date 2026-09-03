@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Hash, ArrowRight } from 'lucide-react';
+import { Search, ArrowRight } from 'lucide-react';
 
 interface ChurchHeroProps {
   onSearchHymnNumber: (num: number) => void;
@@ -38,7 +38,7 @@ export const ChurchHero: React.FC<ChurchHeroProps> = ({
 
         {/* Description */}
         <p className="max-w-2xl text-xs sm:text-sm md:text-base text-slate-300 leading-relaxed font-normal mb-8 sm:mb-10 px-4">
-          Access over 650 authentic Yoruba hymns for individual and congregational devotion.
+          Access all 654 Yoruba hymns (Ìwé Orin Mímọ́) for worship and congregational devotion.
         </p>
 
         {/* Centered Hymn Number Lookup Input */}
@@ -48,7 +48,7 @@ export const ChurchHero: React.FC<ChurchHeroProps> = ({
             className="flex items-center backdrop-blur-2xl bg-indigo-950/80 rounded-2xl border border-amber-500/40 p-2 shadow-2xl focus-within:border-amber-400 focus-within:ring-2 focus-within:ring-amber-400/40 transition-all min-h-[52px]"
           >
             <div className="pl-3 pr-2 flex items-center justify-center text-amber-400">
-              <Hash size={20} />
+              <Search size={20} />
             </div>
 
             <input
@@ -57,7 +57,7 @@ export const ChurchHero: React.FC<ChurchHeroProps> = ({
               min="1"
               max={maxHymnNumber}
               autoFocus
-              placeholder="Enter Hymn # (e.g. 1)"
+              placeholder="Enter Hymn Number / Nọ́mbà Orin (1 - 654)"
               value={hymnNumberInput}
               onChange={(e) => {
                 setHymnNumberInput(e.target.value);

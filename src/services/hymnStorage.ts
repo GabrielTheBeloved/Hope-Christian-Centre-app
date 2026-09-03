@@ -1,5 +1,5 @@
 import { Hymn } from '../types';
-import defaultHymns from '../data/hymnsData.json';
+import defaultHymns from '../data/hymnsData';
 
 const FAVORITES_KEY = 'hcc_hymnal_favorites';
 
